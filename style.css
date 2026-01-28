@@ -1,0 +1,24 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(8, 60px);
+  width: 480px;
+  border: 2px solid #333;
+}
+.square {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+.white {
+  background-color: #fff;
+}
+.black {
+  background-color: #ccc;
+}
+.knight {
+  cursor: grab;
+  user-select: none;
+}
